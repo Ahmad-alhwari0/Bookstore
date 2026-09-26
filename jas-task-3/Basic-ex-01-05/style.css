@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f7;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  color: #1f3b57;
+  margin-bottom: 30px;
+}
+
+#registerform {
+  max-width: 380px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+#registerform div {
+  margin-bottom: 18px;
+}
+
+#registerform label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #1f3b57;
+  text-transform: capitalize;
+}
+
+#registerform input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+#registerform input:focus {
+  outline: none;
+  border-color: #1f3b57;
+}
+
+.error-message {
+  color: #c0392b;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+#registerBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1f3b57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#registerBtn:hover:not(:disabled) {
+  background-color: #2c5177;
+}
+
+#registerBtn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#successMessage {
+  max-width: 380px;
+  margin: 20px auto 0;
+}
+
+.success-message {
+  background-color: #e6f4ea;
+  color: #256029;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
