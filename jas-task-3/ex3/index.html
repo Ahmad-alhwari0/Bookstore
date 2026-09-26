@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Community Bookstore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 Community Bookstore & Reading Club</h1>
+    <p>Register your membership and get your reading recommendation!</p>
+  </header>
+
+  <form id="registerForm">
+    <div>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username">
+    </div>
+
+    <div>
+      <label for="membershipType">Membership Type</label>
+      <select id="membershipType" name="membershipType">
+        <option value="">-- Select --</option>
+        <option value="student">Student</option>
+        <option value="regular">Regular</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="bookGenre">Book Genre</label>
+      <input type="text" id="bookGenre" name="bookGenre">
+    </div>
+
+    <div>
+      <label for="bookTitle">Book Title</label>
+      <input type="text" id="bookTitle" name="bookTitle">
+    </div>
+
+    <button type="submit" id="submitBtn">Submit</button>
+  </form>
+
+  <div id="result-card"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

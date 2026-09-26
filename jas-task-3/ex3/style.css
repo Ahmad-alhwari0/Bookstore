@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f0e6;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  color: #4a2c2a;
+}
+
+
+#registerForm {
+  max-width: 400px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+#registerForm div {
+  margin-bottom: 15px;
+}
+
+#registerForm label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4a2c2a;
+}
+
+#registerForm input,
+#registerForm select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+#registerForm input:focus,
+#registerForm select:focus {
+  outline: none;
+  border-color: #4a2c2a;
+}
+
+.error-message {
+  color: #c0392b;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+#submitBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4a2c2a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#submitBtn:hover {
+  background-color: #6b3f3c;
+}
+
+#submitBtn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#result-card {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.result-item {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+}
+
+.result-item p {
+  margin: 4px 0;
+  color: #4a2c2a;
+}
